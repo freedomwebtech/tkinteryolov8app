@@ -108,7 +108,7 @@ def quit_app():
 
 # Create the main Tkinter window
 root = tk.Tk()
-root.title("Webcam Viewer")
+root.title("YOLO v8 APP")
 
 # Create a Canvas widget to display the webcam feed or video
 canvas = tk.Canvas(root, width=1020, height=500)
