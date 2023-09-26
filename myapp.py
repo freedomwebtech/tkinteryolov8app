@@ -13,7 +13,7 @@ import cvzone
 cap = None
 is_camera_on = False
 frame_count = 0
-frame_skip_threshold = 2
+frame_skip_threshold = 3
 model = YOLO('yolov8s.pt')
 video_paused = False
 
@@ -105,7 +105,7 @@ def quit_app():
 
 # Create the main Tkinter window
 root = tk.Tk()
-root.title("Webcam Viewer")
+root.title("YOLO v8 My App")
 
 # Create a Canvas widget to display the webcam feed or video
 canvas = tk.Canvas(root, width=1020, height=500)
