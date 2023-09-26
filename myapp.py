@@ -14,9 +14,6 @@ cap = None
 is_camera_on = False
 frame_count = 0
 frame_skip_threshold = 2
-drawing = False
-current_polygon = []  # List to store points of the current polygon
-drawn_polygons = []  # List to store drawn polygons and their names
 model = YOLO('yolov8s.pt')
 video_paused = False
 
